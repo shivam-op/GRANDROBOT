@@ -145,10 +145,10 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="t.me/SHIVAM9412")],
                                                                                    [InlineKeyboardButton(text="GROUP",
                                                                        url="https://t.me/SUPER_X_GROUP")
-                                                                                   [InlineKeyboardButton(text="CREDITS",
+                                                                                   InlineKeyboardButton(text="CREDITS",
                                                                        url="https://t.me/LEGENDX22")],
                                                                                    [InlineKeyboardButton(text="ADD SUPER-X TO YOUR GROUP",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username))
+                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                  ]]))
 
     else:
