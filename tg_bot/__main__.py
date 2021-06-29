@@ -143,13 +143,13 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="t.me/SHIVAM9412")],
-                                                                                   [InlineKeyboardButton(text="ADD SUPER-X  TO YOUR GROUP",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
+                                                                                   [InlineKeyboardButton(text="GROUP",
+                                                                       url="https://t.me/SUPER_X_GROUP")
                                                                                    InlineKeyboardButton(text="CREDITS",
                                                                        url="https://t.me/LEGENDX22")
                                                                                  ],
-                                                                                   [InlineKeyboardButton(text="GROUP",
-                                                                       url="https://t.me/SUPER_X_GROUP")
+                                                                                   [InlineKeyboardButton(text="ADD SUPER-X TO YOUR GROUP",
+                                                                       url="t.me/{}?startgroup=true".format(bot.username))
                                                                                  ]]))
 
     else:
