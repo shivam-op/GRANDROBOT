@@ -1,6 +1,6 @@
 # GRAND OFFICIAL
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shivam-op/winzo-vc-bot)  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shivam-op/GRANDROBOT)  
 
 [.](https://heroku.com/deploy)
 Credits - [LEGEND X](https://t.me/legendx22)
