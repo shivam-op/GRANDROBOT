@@ -145,7 +145,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    [InlineKeyboardButton(text="ADD ME TO GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="GROUP♥️",
-                                                                       t.me/FRIENDSFOREVAR40")
+                                                                       url="t.me/FRIENDSFOREVAR40")
                                                                                  ]]))
 
     else:
