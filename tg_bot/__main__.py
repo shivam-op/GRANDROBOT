@@ -27,7 +27,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-I am an **SUPERB**  group management bot.
+нєу, ι αм α ρσωєяƒυℓ gяσυρ мαηαgмєηт вσт.
 You can find the list of available commands with /help.
 
 """
@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/9bf5905788ab421b5a21b.jpg"
+TECHNO_IMG = "https://telegra.ph/file/5e75ff6e637fe16838bed.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -140,12 +140,12 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="HELP",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="My Creator🇮🇳",
+                                                                                   InlineKeyboardButton(text="му ¢яєαтσя🇮🇳",
                                                                        url="t.me/SHIVAM9412")],
-                                                                                   [InlineKeyboardButton(text="ADD ME TO GROUP",
+                                                                                   [InlineKeyboardButton(text="α∂∂ мє тσ gяσυρ🤗",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="MY GROUP♥️",
-                                                                       url="t.me/FriendsForever40")
+                                                                                   InlineKeyboardButton(text="му σωηєя♥️",
+                                                                       url="t.me/WINZO_QUEEN")
                                                                                  ]]))
 
     else:
